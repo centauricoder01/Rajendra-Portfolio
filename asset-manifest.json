@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.82fd1481.css",
+    "main.js": "/static/js/main.fd06dedd.js",
+    "static/media/new_kindmeal.png": "/static/media/new_kindmeal.0d29dde57bc655b2c82e.png",
+    "static/media/me-about_.jpg": "/static/media/me-about_.26edd0e137aab65a5a5d.jpg",
+    "static/media/cv_.pdf": "/static/media/cv_.abae67dbec59acac7d81.pdf",
+    "static/media/portfolio5.png": "/static/media/portfolio5.a82ae9a163c1ac5e3a07.png",
+    "static/media/banner-bg.png": "/static/media/banner-bg.cc1273af450504afe755.png",
+    "static/media/header-img.svg": "/static/media/header-img.84bf93eb20488a753440bf83d27db7bb.svg",
+    "static/media/portfolio2.jpg": "/static/media/portfolio2.ae187bc4e43ae6dbc263.jpg",
+    "static/media/foodstore.jpg": "/static/media/foodstore.a6139e21c8cc1f0c8970.jpg",
+    "static/media/portfolio1.jpg": "/static/media/portfolio1.f5e72352e5aa840702b8.jpg",
+    "static/media/portfolio3.jpg": "/static/media/portfolio3.cbab42559fe73e73906f.jpg",
+    "index.html": "/index.html",
+    "main.82fd1481.css.map": "/static/css/main.82fd1481.css.map",
+    "main.fd06dedd.js.map": "/static/js/main.fd06dedd.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.82fd1481.css",
+    "static/js/main.fd06dedd.js"
+  ]
+}
