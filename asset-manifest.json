@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.82fd1481.css",
-    "main.js": "/static/js/main.f494b8ec.js",
+    "main.js": "/static/js/main.fd06dedd.js",
     "static/media/new_kindmeal.png": "/static/media/new_kindmeal.0d29dde57bc655b2c82e.png",
     "static/media/me-about_.jpg": "/static/media/me-about_.26edd0e137aab65a5a5d.jpg",
     "static/media/cv_.pdf": "/static/media/cv_.abae67dbec59acac7d81.pdf",
@@ -14,10 +14,10 @@
     "static/media/portfolio3.jpg": "/static/media/portfolio3.cbab42559fe73e73906f.jpg",
     "index.html": "/index.html",
     "main.82fd1481.css.map": "/static/css/main.82fd1481.css.map",
-    "main.f494b8ec.js.map": "/static/js/main.f494b8ec.js.map"
+    "main.fd06dedd.js.map": "/static/js/main.fd06dedd.js.map"
   },
   "entrypoints": [
     "static/css/main.82fd1481.css",
-    "static/js/main.f494b8ec.js"
+    "static/js/main.fd06dedd.js"
   ]
 }
