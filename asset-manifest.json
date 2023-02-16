@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.d6745df6.css",
-    "main.js": "/static/js/main.c516b81d.js",
+    "main.css": "/static/css/main.29db7779.css",
+    "main.js": "/static/js/main.b6844ebf.js",
     "static/media/new_kindmeal.png": "/static/media/new_kindmeal.0d29dde57bc655b2c82e.png",
     "static/media/youtube_clone.png": "/static/media/youtube_clone.1fcb8f8e9e92a2db34ca.png",
     "static/media/nifty_clone.png": "/static/media/nifty_clone.7000878f640621bcb38f.png",
     "static/media/Rajendra_Patel_Resume.pdf": "/static/media/Rajendra_Patel_Resume.94946421c5053df2eb39.pdf",
-    "static/media/me-about_.png": "/static/media/me-about_.df080c6e87e2e0371cb4.png",
+    "static/media/me-about_.png": "/static/media/me-about_.c0e334124d21a433da56.png",
     "static/media/diverse.png": "/static/media/diverse.686f8afad89b7d347e5d.png",
     "static/media/foodstore.jpg": "/static/media/foodstore.a6139e21c8cc1f0c8970.jpg",
     "static/media/fourth.webp": "/static/media/fourth.11a6939052bec56f7b6c.webp",
     "static/media/aboutimg.webp": "/static/media/aboutimg.dd699ce467fac63dfa4f.webp",
     "index.html": "/index.html",
-    "main.d6745df6.css.map": "/static/css/main.d6745df6.css.map",
-    "main.c516b81d.js.map": "/static/js/main.c516b81d.js.map"
+    "main.29db7779.css.map": "/static/css/main.29db7779.css.map",
+    "main.b6844ebf.js.map": "/static/js/main.b6844ebf.js.map"
   },
   "entrypoints": [
-    "static/css/main.d6745df6.css",
-    "static/js/main.c516b81d.js"
+    "static/css/main.29db7779.css",
+    "static/js/main.b6844ebf.js"
   ]
 }
