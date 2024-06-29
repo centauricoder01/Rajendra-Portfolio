@@ -1,0 +1,132 @@
+#skill {
+  background-image: linear-gradient(
+    to bottom right,
+    rgb(255, 255, 255),
+    rgb(237 242 248)
+  );
+  padding-bottom: 4rem;
+}
+.experience_container {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 2rem;
+  width: 75%;
+  margin: auto;
+  margin-top: 5rem;
+}
+
+.experience_container > div {
+  background: var(--color-bg-variant);
+  padding: 1rem;
+  border-radius: 1rem;
+  border: 1px solid transparent;
+  transition: var(--transition);
+}
+
+.technicalskill {
+  color: black;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.categories_button {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin: 2rem;
+}
+
+.categories_button button {
+  color: black;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  box-shadow: 0px 1px 6px -3px black;
+  border: 1px solid aliceblue;
+}
+
+.experience_container > div:hover {
+  background: transparent;
+  border-color: var(--color-primary-variant);
+  cursor: default;
+}
+
+.experience_container > div > h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+  color: var(--color-primary);
+}
+
+.experience_content {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  row-gap: 2rem;
+}
+
+.experience_details {
+  display: flex;
+  gap: 1rem;
+}
+
+.experience_details_icons {
+  margin-top: 6px;
+  color: var(--color-primary);
+  font-size: 1.5rem;
+}
+h5 {
+  font-size: 1rem;
+}
+
+/* media query of the website  */
+
+@media screen and (max-width: 1100px) {
+  .experience_container {
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+    width: 90%;
+  }
+  .experience_container > div {
+    width: 80%;
+    padding: 1rem;
+    margin: 1rem auto;
+  }
+  .experience_content {
+    padding: 1rem;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .experience_container {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+  }
+  .experience_container > div {
+    width: 80%;
+    padding: 2rem 1rem;
+  }
+}
+@media screen and (max-width: 500px) {
+  .experience_container {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+  }
+  .experience_container > div {
+    width: 80%;
+    padding: 2rem 1rem;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .experience_container {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+  }
+  .experience_container > div {
+    width: 100%;
+    padding: 2rem 1rem;
+    margin: 0rem;
+  }
+  .categories_button {
+    gap: 10px;
+    margin: 10px;
+  }
+}

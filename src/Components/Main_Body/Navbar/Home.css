@@ -1,0 +1,153 @@
+/* ####################   CTA    ############# */
+
+.cta {
+  display: flex;
+  gap: 1.2rem;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.cta a {
+  width: 10rem;
+  text-align: center;
+}
+
+/* #############  HEADER SOCIAL ############## */
+
+.header_socials {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.8rem;
+  position: absolute;
+
+  left: 0;
+  bottom: 3rem;
+  z-index: 1;
+  position: fixed;
+  left: 0;
+}
+
+/* ################### MAIN CSS OF THE DIV ################## */
+
+.banner {
+  padding-bottom: 11rem;
+  background-image: linear-gradient(#edf2f8, #edf2f8);
+}
+
+.maincenterdiv {
+  display: flex;
+  justify-content: center;
+  width: 70%;
+  margin: auto;
+  align-items: center;
+  color: black;
+  height: 100%;
+  padding-bottom: 4rem;
+  padding-top: 4rem;
+  text-align: center;
+}
+
+.Myphoto {
+  display: flex;
+  justify-content: right;
+}
+
+.Myphoto img {
+  border-radius: 1.5rem;
+  border-top-left-radius: 15rem;
+  border-top-right-radius: 15rem;
+  width: 75%;
+  transition: width 0.3s ease-in-out;
+  pointer-events: none;
+}
+
+.Alldetails h1 {
+  font-weight: 900;
+  font-size: 4rem;
+  text-align: center;
+}
+
+.Alldetails p {
+  font-size: 1.4rem;
+  width: 80%;
+  margin: auto;
+}
+
+/* #################  media query of the website  ############### */
+
+@media screen and (max-width: 1100px) {
+  .maincenterdiv {
+    width: 100%;
+    justify-content: center;
+  }
+  .Myphoto img {
+    width: 60%;
+  }
+
+  .banner {
+    padding-bottom: 5rem;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .banner {
+    margin-top: 0rem;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .maincenterdiv {
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+  .cta {
+    display: block;
+    padding: 20px;
+  }
+  .cta a {
+    margin: 1rem;
+  }
+  .Myphoto img {
+    width: 40%;
+  }
+  .Myphoto {
+    display: flex;
+    justify-content: center;
+  }
+  .banner {
+    padding-bottom: 2rem;
+    margin-top: -3rem;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .header_socials {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .banner {
+    padding-top: 6rem;
+  }
+  .Myphoto img {
+    width: 55%;
+  }
+
+  .header_socials {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .Alldetails h1 {
+    font-size: 2rem;
+  }
+  .Alldetails p {
+    font-size: 1rem;
+    width: 90%;
+  }
+}

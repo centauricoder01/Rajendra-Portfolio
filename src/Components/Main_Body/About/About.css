@@ -1,0 +1,171 @@
+.about_container {
+  display: grid;
+  grid-template-columns: 35% 50%;
+  gap: 15%;
+}
+
+.about_me {
+  width: 100%;
+  aspect-ratio: 1/1;
+  border-radius: 2rem;
+  background: linear-gradient(
+    45deg,
+    transparent,
+    var(--color-primary),
+    transparent
+  );
+  display: grid;
+  place-items: center;
+}
+
+.mainaboutdiv {
+  display: flex;
+  width: 80%;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  margin-top: 3rem;
+  justify-content: center;
+  gap: 1rem;
+}
+
+/* about image styleing */
+
+.aboutbutton {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+.aboutbutton button {
+  font-size: 15px;
+  font-weight: bold;
+}
+
+/* Space image of the dool  */
+
+.spacetraveller {
+  z-index: -3;
+  width: 50%;
+}
+.spacetraveller img {
+  margin-top: -5rem;
+  width: 100%;
+}
+
+/* End image spcase herel  */
+
+.about_content {
+  width: 50%;
+}
+
+.about_cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+}
+
+.about_card {
+  background: rgb(237 242 248);
+  border: 1px solid transparent;
+  border-radius: 1rem;
+  padding: 2rem;
+  text-align: center;
+  transition: var(--transition);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.about_card h3,
+h4 {
+  color: black;
+}
+
+.about_card:hover {
+  background: transparent;
+  border-color: var(--color-primary-variant);
+  cursor: default;
+}
+
+.about_icon {
+  color: #34de58;
+  font-size: 1.9rem;
+  margin-bottom: 1rem;
+}
+
+.about_card small {
+  font-size: 0.7rem;
+  color: var(--color-light);
+}
+
+.about_content ul {
+  margin: 2rem 0 2.6rem;
+  color: black;
+  text-align: left;
+}
+.about_content ul li {
+  margin: 10px;
+  color: black;
+  text-align: left;
+}
+
+.about_content {
+  text-align: center;
+}
+
+/* RESPONSIVE DESIGN OF THE ABOUT PAGE  */
+
+@media screen and (max-width: 1200px) {
+  .mainaboutdiv {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .mainaboutdiv {
+    display: block;
+  }
+  .spacetraveller {
+    width: 60%;
+    margin: auto;
+  }
+  .about_content {
+    width: 90%;
+    margin: auto;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .spacetraveller {
+    width: 85%;
+    margin: auto;
+  }
+  .about_content {
+    width: 100%;
+    margin: auto;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .mainaboutdiv {
+    width: 93%;
+  }
+  .spacetraveller {
+    width: 85%;
+    margin: auto;
+  }
+  .about_content {
+    width: 100%;
+    margin: auto;
+  }
+  .about_card {
+    padding: 10px;
+    font-size: 10px;
+  }
+
+  .about_cards {
+    gap: 10px;
+  }
+}

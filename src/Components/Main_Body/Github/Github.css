@@ -1,0 +1,47 @@
+.Maingithub {
+  width: 100%;
+  color: black;
+  margin: auto;
+  margin-bottom: 3rem;
+}
+
+.Maingithub h1 {
+  font-weight: bolder;
+  margin: auto;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  text-align: center;
+  font-size: 2rem;
+}
+
+.Status_github img {
+  width: 50%;
+  margin: auto;
+  margin-top: 2rem;
+  pointer-events: none;
+}
+
+.GithubCalendars footer {
+  background: 2px solid green;
+  padding: 1px;
+  display: flex;
+  justify-content: space-around;
+}
+@media screen and (max-width: 768px) {
+  .Status_github img {
+    width: 80%;
+  }
+  .GithubCalendars {
+    width: 90%;
+    margin: auto;
+  }
+  .GithubCalendars footer {
+    margin: auto;
+  }
+  .react-activity-calendar__count {
+    font-size: 12px;
+    margin: auto;
+    text-align: center;
+    margin-top: 1px;
+  }
+}
