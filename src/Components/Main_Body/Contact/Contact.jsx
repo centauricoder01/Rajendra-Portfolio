@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import "./Contact.css";
 import { FaGithub } from "react-icons/fa";
 import { BsLinkedin } from "react-icons/bs";
-import { BsFillHeartFill } from "react-icons/bs";
 
 import contactimg from "./fourth.webp";
 import Snackbar from "@mui/material/Snackbar";

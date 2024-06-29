@@ -67,14 +67,15 @@ const Navbar = () => {
             </li>
             <li>
               <a
-                href="#Gihub"
+                href="#experience"
                 onClick={() => {
                   setclasses("donotshownavbar");
                 }}
               >
-                Github
+                Experience
               </a>
             </li>
+
             <li>
               <a
                 href="#project"
@@ -83,6 +84,16 @@ const Navbar = () => {
                 }}
               >
                 Project
+              </a>
+            </li>
+            <li>
+              <a
+                href="#Gihub"
+                onClick={() => {
+                  setclasses("donotshownavbar");
+                }}
+              >
+                Github
               </a>
             </li>
             <li>

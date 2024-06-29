@@ -25,7 +25,7 @@ const Experience = () => {
           contentArrowStyle={{ borderRight: "7px solid  #232631" }}
           date={"Augest 2022 - Present"}
           dateClassName="text-neutral-950 font-bold"
-          iconStyle={{ background: "rgb(230, 222, 221)" }}
+          iconStyle={{ background: "#01b522" }}
           icon={
             <div className="flex justify-center items-center w-full h-full">
               <img
@@ -152,7 +152,8 @@ const Experience = () => {
               rate-limiting to curb unwanted requests.
             </li>
             <li className="text-white-100 text-[14px] pl-1 tracking-wider">
-              Learned alot of new technologies like Postgresql, MySQL, AWS and more...
+              Learned alot of new technologies like Postgresql, MySQL, AWS and
+              more...
             </li>
           </ul>
         </VerticalTimelineElement>
